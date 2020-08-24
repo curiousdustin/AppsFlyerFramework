@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
     s.tvos.deployment_target = '9.0'
     s.osx.deployment_target = '10.11'
 
-    s.ios.frameworks = 'AdSupport', 'iAd', 'Security', 'SystemConfiguration', 'CoreTelephony'
-    s.tvos.frameworks  = 'AdSupport', 'Security'
-    s.osx.frameworks  = 'AdSupport', 'Security'
+    s.ios.frameworks = 'Security', 'SystemConfiguration', 'CoreTelephony'
+    s.tvos.frameworks  = 'Security'
+    s.osx.frameworks  = 'Security'
 
     s.ios.preserve_paths = 'iOS/AppsFlyerLib.framework'
     s.ios.vendored_frameworks = 'iOS/AppsFlyerLib.framework'
